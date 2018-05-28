@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StrokeActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.misc2.widget.StrokeTextView1
+            android:layout_gravity="center_horizontal"
+            android:textSize="100sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="5"
+            android:gravity="center"
+            app:strokeColor="@color/colorPrimary"
+            app:strokeWidth="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <com.example.misc2.widget.StrokeTextView2
+            android:layout_gravity="center_horizontal"
+            android:textSize="100sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="5"
+            android:gravity="center"
+            app:strokeColor="@color/colorPrimary"
+            app:strokeWidth="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <com.example.misc2.widget.StrokeTextView3
+            android:layout_gravity="center_horizontal"
+            android:textSize="100sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="5"
+            android:gravity="center"
+            app:strokeColor="@color/colorPrimary"
+            app:strokeWidth="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <com.example.misc2.widget.StrokeTextView
+        android:id="@+id/stroke_text_view"
+        android:layout_gravity="center_horizontal"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:text="5"
+        app:strokeColor="@color/colorPrimary"
+        app:strokeWidth="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="100sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.example.misc2.widget.StrokeTextView1
+            android:textSize="100sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="5"
+            android:gravity="center"
+            app:strokeColor="@color/colorPrimary"
+            app:strokeWidth="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+</LinearLayout>

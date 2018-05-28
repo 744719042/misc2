@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_change_skin"
+        android:title="修改皮肤" />
+
+    <item
+        android:id="@+id/action_reset_skin"
+        android:title="重置皮肤" />
+</menu>
